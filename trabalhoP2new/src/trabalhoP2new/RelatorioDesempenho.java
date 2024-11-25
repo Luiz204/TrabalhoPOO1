@@ -11,7 +11,29 @@ public class RelatorioDesempenho {
         this.avaliacoes = avaliacoes;
     }
 
-    public void gerarRelatorio() {
+    
+	public Aluno getAluno() {
+		return aluno;
+	}
+
+
+	public void setAluno(Aluno aluno) {
+		this.aluno = aluno;
+	}
+
+
+
+	public List<Avaliacao> getAvaliacoes() {
+		return avaliacoes;
+	}
+
+
+	public void setAvaliacoes(List<Avaliacao> avaliacoes) {
+		this.avaliacoes = avaliacoes;
+	}
+
+
+	public void gerarRelatorio() {
         System.out.println("Relatório de Desempenho de " + aluno.getNome());
         for (Avaliacao avaliacao : avaliacoes) {
             System.out.println(avaliacao.getNome() + ": " + avaliacao.getNota());

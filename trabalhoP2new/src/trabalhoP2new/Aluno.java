@@ -16,7 +16,22 @@ public class Aluno {
         return nome;
     }
 
-    public String getMatricula() {
+    
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+
+	public void setVIP(boolean isVIP) {
+		this.isVIP = isVIP;
+	}
+
+	public String getMatricula() {
         return matricula;
     }
 

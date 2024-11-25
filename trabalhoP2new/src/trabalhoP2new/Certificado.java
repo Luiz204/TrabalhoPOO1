@@ -9,7 +9,28 @@ public class Certificado {
         this.curso = curso;
     }
 
-    // Método para exibir informações do certificado
+    
+	public Aluno getAluno() {
+		return aluno;
+	}
+
+	public void setAluno(Aluno aluno) {
+		this.aluno = aluno;
+	}
+
+
+	public String getCurso() {
+		return curso;
+	}
+
+
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+
+
+
+	// Método para exibir informações do certificado
     public void exibirCertificado() {
         System.out.println("Certificado de " + aluno.getNome() + " para o curso " + curso);
     }

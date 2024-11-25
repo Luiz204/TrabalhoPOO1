@@ -12,8 +12,25 @@ public class Turma {
         this.alunos = new ArrayList<>();
     }
 
-    public String getNome() {
-        return nome; // Método getNome adicionado
+    
+	public List<Aluno> getAlunos() {
+		return alunos;
+	}
+
+
+	public void setAlunos(List<Aluno> alunos) {
+		this.alunos = alunos;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
+	public String getNome() {
+        return nome; 
     }
 
     

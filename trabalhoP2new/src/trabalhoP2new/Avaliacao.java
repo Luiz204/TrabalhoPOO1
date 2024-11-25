@@ -14,7 +14,17 @@ public class Avaliacao {
         return nome;
     }
 
-    public double getNota() {
+    
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	
+	public void setNota(double nota) {
+		this.nota = nota;
+	}
+
+	public double getNota() {
         return nota;
     }
 }
